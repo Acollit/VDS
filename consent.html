@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="img/x-icon.webp" type="img/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <meta name="description" content="Зимние курсы экстремального вождения">
+  <title>Driving School</title>
+
+  <link rel="preload" href="fonts/Inter-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Inter-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Inter-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <script src="https://api-maps.yandex.ru/2.0/?load=package.standard&lang=ru-RU"></script>
+  <script defer src="js/main.js"></script>
+
+</head>
+
+<body class="page__body">
+  <div class="site-container">
+    <header class="header">
+  <div class="header__mobile">
+    <a class="header__text" href="tel:+74951202374">Обратный звонок</a>
+    <a class="header__phone" href="tel:+74951202374">+7 495 120-23-74
+    </a>
+  </div>
+  <div class="container">
+
+    <div class="header__content">
+      <div class="header__box">
+        <a href="https://vds-school.ru" class="header__logo">
+          <img loading="lazy" src="img/logo.svg" class="image" width="203" height="33" alt="logo">
+        </a>
+        <a href="https://www.google.com/maps/place/Ленинградское+ш.,+39+строение+53,+Москва,+Россия,+125212/@55.8372679,37.4766045,17z/data=!3m1!4b1!4m6!3m5!1s0x46b548036b56c8cf:0x79e801a7e8fad584!8m2!3d55.8372679!4d37.4791794!16s%2Fg%2F11gzqh1qnl?entry=ttu"
+          class="header__address">
+          Москва, Ленинградское шоссе д. 39 стр. 53, 2 этаж, офис 217
+        </a>
+      </div>
+      <div class="header__box">
+        <div class="header__inner">
+          <p class="header__time">
+            Время работы: Пн-Вс 10:00–20:00
+          </p>
+          <a class="header__mail" href="mailto:sales@vds-school.ru">sales@vds-school.ru</a>
+        </div>
+
+        <div class="header__inner">
+          <a class="header__phone" href="tel:+74951202374">+7 495 120-23-74
+
+          </a>
+          <button class="header__text btn-reset" data-graph-path="modal">Обратный звонок</span>
+
+        </div>
+        <button class="burger" aria-label="Открыть меню" aria-expanded="false" data-burger>
+          <span class="burger__line"></span>
+        </button>
+      </div>
+
+    </div>
+    <nav class="nav">
+      <ul class="nav__list list-reset">
+        <li class="nav__item"><a href="https://vds-school.ru#program" class="nav__link">Программа</a></li>
+        <li class="nav__item"><a href="https://vds-school.ru#cars" class="nav__link">Машины</a></li>
+        <li class="nav__item"><a href="https://vds-school.ru#polygon" class="nav__link">Наш полигон</a></li>
+        <li class="nav__item"><a href="https://vds-school.ru#gift" class="nav__link">Подарочный сертификат</a></li>
+        <li class="nav__item"><a href="https://vds-school.ru#class" class="nav__link">Наш класс</a></li>
+        <li class="nav__item"><a href="https://vds-school.ru#faq" class="nav__link">FAQ</a></li>
+        <li class="nav__item"><a href="https://vds-school.ru#contacts" class="nav__link">Контакты</a></li>
+      </ul>
+    </nav>
+  </div>
+
+</header>
+
+    <div class="menu" data-menu>
+
+  <div class="menu__content">
+    <a class="menu__logo" href="https://vds-school.ru">
+      <img loading="lazy" src="img/logo.svg" class="image" width="203" height="33" alt="logo">
+    </a>
+    <ul class="menu__list list-reset">
+      <li class="menu__item"><a href="https://vds-school.ru#program" class="menu__link">Программа</a></li>
+      <li class="menu__item"><a href="https://vds-school.ru#cars" class="menu__link">Машины</a></li>
+      <li class="menu__item"><a href="https://vds-school.ru#polygon" class="menu__link">Наш полигон</a></li>
+      <li class="menu__item"><a href="https://vds-school.ru#gift" class="menu__link">Подарочный сертификат</a></li>
+      <li class="menu__item"><a href="https://vds-school.ru#class" class="menu__link">Наш класс</a></li>
+      <li class="menu__item"><a href="https://vds-school.ru#faq" class="menu__link">FAQ</a></li>
+      <li class="menu__item"><a href="https://vds-school.ru#contacts" class="menu__link">Контакты</a></li>
+    </ul>
+    <a href="https://www.google.com/maps/place/Ленинградское+ш.,+39+строение+53,+Москва,+Россия,+125212/@55.8372679,37.4766045,17z/data=!3m1!4b1!4m6!3m5!1s0x46b548036b56c8cf:0x79e801a7e8fad584!8m2!3d55.8372679!4d37.4791794!16s%2Fg%2F11gzqh1qnl?entry=ttu" class="menu__address">
+      Москва, Ленинградское шоссе д. 39 <br> стр. 53, 2 этаж, офис 217
+    </a>
+    <p class="menu__time">
+      Время работы: <br> Пн-Вс 10:00–20:00
+    </p>
+    <a href="mailto:sales@vds-school.ru" class="menu__mail">
+      sales@vds-school.ru
+    </a>
+  </div>
+
+</div>
+
+    <main class="main">
+      <section class="consent">
+  <div class="container">
+    <h1 class="consent__title">
+      Согласия на обработку персональных данных для сайта
+    </h1>
+    <p class="consent__text">
+      «Оставляя на сайте, размещенном по веб-адресу: <a href="#">vds-school.ru</a> (далее — Сайт), принадлежащем ООО
+      „ВДС“, ИНН 7743092830,
+      оператор персональных данных рег.№ ___ (далее — Администрация Сайта), любые из Ваших данных (которые отнесены к
+      категории персональных в соответствии с ФЗ „О персональных данных“ от 27.07.2006 № 152-ФЗ), путем заполнения полей
+      любых
+      форм на Сайте, Вы автоматически присоединяетесь к настоящему Соглашению, приобретаете статус пользователя Сайта
+      (далее-Пользователь Сайта) и соглашаетесь со всеми без исключения его условиями.
+    </p>
+    <h2 class="consent__subtitle">
+      Пользователь Сайта:
+    </h2>
+    <ul class="consent__list">
+      <li class="consent__item">
+        Подтверждает, что все указанные им в формах регистрации на Сайте данные принадлежат лично ему, соответствуют
+        действительности, не искажены.
+      </li>
+      <li class="consent__item">
+        Подтверждает и признает, что им внимательно в полном объеме прочитано настоящее Соглашение и условия обработки
+        его
+        персональных данных. Текст Соглашения и условия обработки персональных данных ему понятны и он с ними согласен;
+      </li>
+      <li class="consent__item">
+        Дает согласие на обработку Администрацией Сайта предоставляемых в составе информации персональных данных в целях
+        заключения между ним и Сайтом настоящего Соглашения, а также его последующего исполнения;
+      </li>
+      <li class="consent__item">
+        Выражает согласие с условиями обработки персональных данных без оговорок и ограничений.
+      </li>
+      <li class="consent__item">
+        В соответствии с ФЗ «О персональных данных» от 27.07.2006 № 152-ФЗ свободно, своей волей и в своем интересе
+        выражает
+        согласие на сбор, анализ, обработку, хранение и использование своих персональных данных (ФИО, дата рождения,
+        паспортные
+        данные, места пребывания, адрес проживания, мобильный телефон, домашний телефон, электронный адрес (E-mail),
+        реквизиты
+        банковских карт, прочие данные).
+      </li>
+    </ul>
+    <p class="consent__text">
+      Согласие Пользователя Сайта на обработку персональных данных является конкретным, информированным и сознательным.
+    </p>
+    <p class="consent__text">
+      Настоящее согласие Пользователя Сайта признается исполненным в простой письменной форме.
+    </p>
+    <p class="consent__text">
+      Пользователь Сайта предоставляет Администрации Сайта право осуществлять следующие действия (операции) с
+      персональными
+      данными:
+    </p>
+    <ul class="consent__list">
+      <li class="consent__item">
+        сбор и накопление;
+      </li>
+      <li class="consent__item">
+        хранение в течение установленных нормативными документами сроков хранения отчетности, но не менее трех лет, с
+        момента
+        даты прекращения пользования услуг Пользователем Сайта;
+
+      </li>
+      <li class="consent__item">
+        уточнение (обновление, изменение);
+      </li>
+      <li class="consent__item">
+        использование;
+      </li>
+      <li class="consent__item">
+        уничтожение;
+      </li>
+      <li class="consent__item">
+        обезличивание;
+      </li>
+      <li class="consent__item">
+        передача по требованию суда, в том числе, третьим лицам, с соблюдением мер, обеспечивающих защиту персональных
+        данных от
+        несанкционированного доступа.
+      </li>
+    </ul>
+
+    <p class="consent__text">
+      Указанное согласие действует бессрочно с момента предоставления данных и может быть отозвано Пользователем Сайта
+      путем
+      подачи заявления Администрации Сайта с указанием данных, определенных ст. 14 Федерального закона от 27.07.2006 N
+      152-ФЗ
+      «О персональных данных» (ред. от 22.02.2017 г.).
+    </p>
+    <p class="consent__text">
+      Отзыв согласия на обработку персональных данных может быть осуществлен путем направления Пользователем
+      соответствующего
+      распоряжения в простой письменной форме на адрес электронной почты <a
+        href="mailto:sales@vds-school.ru">sales@vds-school.ru.</a>
+    </p>
+    <p class="consent__text">
+      Администрация Сайта не несет ответственности за использование (как правомерное, так и неправомерное) третьими
+      лицами
+      Информации, размещенной Пользователем Сайта на Сайте, включая её воспроизведение и распространение, осуществленные
+      всеми
+      возможными способами.
+    </p>
+    <p class="consent__text">
+      Администрация Сайта в любое время имеет право вносить изменения в настоящее Соглашение.
+    </p>
+    <p class="consent__text">
+      При внесении изменений в актуальной редакции указывается дата последнего обновления. Новая редакция Соглашения
+      вступает
+      в силу с момента ее размещения, если иное не предусмотрено новой редакцией Соглашения.
+    </p>
+    <p class="consent__text">
+      К настоящему Соглашению и отношениям между Пользователем Сайта и Администрацией Сайта, возникающим в связи с
+      применением
+      Соглашения, подлежит применению действующее законодательство Российской Федерации.»
+    </p>
+  </div>
+</section>
+
+    </main>
+
+    <footer class="footer">
+  <div class="container">
+    <div class="footer__content">
+      <a href="https://vds-school.ru" class="footer__logo">
+        <img loading="lazy" src="img/footer-logo.svg" class="image" width="203" height="33" alt="logo">
+      </a>
+      <div class="footer__socials">
+        <a class="footer__social" href="https://t.me/vasin_driving_school">
+          <img loading="lazy" src="img/tel.svg" class="footer__img image" width="24" height="24" alt="tel">
+        </a>
+        <a class="footer__social" href="https://www.youtube.com/channel/UCndj42vEMMnrVBsI_YZ4YbA">
+          <img loading="lazy" src="img/you.svg" class="footer__img image" width="24" height="24" alt="you">
+        </a>
+        <a class="footer__social" href="https://www.instagram.com/vasin_driving_school/">
+          <img loading="lazy" src="img/inst.svg" class="footer__img image" width="24" height="24" alt="inst">
+        </a>
+        <a class="footer__social" href="https://www.instagram.com/vasin_driving_school/">
+          <img loading="lazy" src="img/vk.svg" class="footer__img image" width="24" height="24" alt="vk">
+        </a>
+        <a class="footer__social" href="https://web.facebook.com/vasindrivingschool/">
+          <img loading="lazy" src="img/face.svg" class="footer__img image" width="24" height="24" alt="tel">
+        </a>
+      </div>
+      <div class="footer__wrapper">
+        <div class="footer__box">
+          <a class="footer__phone" href="tel:+74951202374">+7 495 120-23-74
+            <button class="footer__text--two btn-reset" data-graph-path="modal">Обратный звонок</button>
+          </a>
+
+          <p class="footer__text">
+            Время работы: <br> Пн-Вс 10:00–20:00
+          </p>
+          <p class="footer__text">
+            Москва, Ленинградское шоссе д. 39 стр. 53, 2 этаж, офис 217
+          </p>
+          <a href="mailto:sales@vds-school.ru" class="footer__text">
+            sales@vds-school.ru
+          </a>
+        </div>
+        <div class="footer__nav">
+          <ul class="footer__list list-reset">
+            <li class="footer__item">
+              <a class="footer__link" href="https://vds-school.ru#program">
+                Программа
+              </a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="https://vds-school.ru#cars">
+                Машины
+              </a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="https://vds-school.ru#polygon">
+                Наш полигон
+              </a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="https://vds-school.ru#gift">
+                Подарочный сертификат
+              </a>
+            </li>
+          </ul>
+          <ul class="footer__list list-reset">
+            <li class="footer__item">
+              <a class="footer__link" href="#">
+                Блог
+              </a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="https://vds-school.ru#class">
+                Наш класс
+              </a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#faq">
+                FAQ
+              </a>
+            </li>
+            <li class="footer__item">
+              <a class="footer__link" href="#contacts">
+                Контакты
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__copirait">
+        <span class="footer__cop">©VDS</span>
+        <div class="footer__inner">
+          <a class="footer__cop" href="copirait.html">Политика конфиденциальности</a>
+          <a class="footer__cop" href="consent.html">Согласие на обработку персональных данных</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+    <div class="graph-modal">
+  <div class="graph-modal__container" role="dialog" aria-modal="true" data-graph-target="modal">
+    <button class="btn-reset js-modal-close graph-modal__close" aria-label="Закрыть модальное окно"></button>
+    <div class="graph-modal__content">
+      <div class="graph-modal__inner">
+        <a href="#" class="graph-modal__logo">
+          <img loading="lazy" src="img/logo.svg" class="image" width="203" height="33" alt="logo">
+        </a>
+      </div>
+      <div class="graph-modal__wrapper">
+        <h2 class="graph-modal__subtitle">
+          Мы будем рады ответить на ваши вопросы!
+        </h2>
+        <form action="#" enctype="multipart/form-data" class="graph-modal__form">
+
+          <label class="graph-modal__lab">
+            <input type="text" name="Имя" class="input-reset graph-modal__input" placeholder="Имя">
+          </label>
+
+          <label class="graph-modal__lab">
+            <input type="tel" name="Телефон" class="input-reset graph-modal__input" data-validate-field="tel"
+              placeholder="Телефон">
+          </label>
+
+          <div class="graph-modal__box">
+            <input type="radio" name="radio" id="radio" data-validate-field="radio"
+              class="input-reset graph-modal__radio">
+
+            <label class="graph-modal__label" for="radio">Согласен на обработку персональных данных</label>
+          </div>
+
+          <button class="btn-reset btn">Узнать подробности</button>
+
+        </form>
+        <div class="graph-modal__complit">
+          <img loading="lazy" src="img/cheked.svg" class="image" width="55" height="55" alt="cheked">
+          <span class="graph-modal__title">
+            Благодарим вас!
+          </span>
+          <p class="graph-modal__text">
+            Ваша заявка получена.
+            Менеджер скоро свяжется с вами.
+          </p>
+          <button class="btn btn--pad btn-reset js-modal-close" aria-label="Закрыть модальное окно">Готово</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+  <div class="graph-modal__container" role="dialog" aria-modal="true" data-graph-target="modal-two">
+    <button class="btn-reset js-modal-close graph-modal__close" aria-label="Закрыть модальное окно"></button>
+    <div class="graph-modal__content">
+      <div class="graph-modal__inner">
+        <a href="#" class="graph-modal__logo">
+          <img loading="lazy" src="img/logo.svg" class="image" width="203" height="33" alt="logo">
+        </a>
+      </div>
+      <div class="graph-modal__wrapper graph-modal__wrapper--two">
+        <h2 class="graph-modal__subtitle">
+          Мы будем рады ответить на ваши вопросы!
+        </h2>
+        <form action="#" enctype="multipart/form-data" class="graph-modal__form-two">
+
+          <label class="graph-modal__lab">
+            <input type="text" name="Имя" class="input-reset graph-modal__input" placeholder="Имя">
+          </label>
+
+          <label class="graph-modal__lab">
+            <input type="tel" name="Телефон" class="input-reset graph-modal__input" data-validate-field="tel"
+              placeholder="Телефон">
+          </label>
+
+          <div class="graph-modal__box">
+            <input type="radio" name="radio" id="radio" data-validate-field="radio"
+              class="input-reset graph-modal__radio">
+
+            <label class="graph-modal__label" for="radio">Согласен на обработку персональных данных</label>
+          </div>
+
+          <button class="btn-reset btn">Узнать подробности</button>
+
+        </form>
+        <div class="graph-modal__complit">
+          <img loading="lazy" src="img/cheked.svg" class="image" width="55" height="55" alt="cheked">
+          <span class="graph-modal__title">
+            Благодарим вас!
+          </span>
+          <p class="graph-modal__text">
+            Ваша заявка получена.
+            Менеджер скоро свяжется с вами.
+          </p>
+          <button class="btn btn--pad btn-reset js-modal-close" aria-label="Закрыть модальное окно">Готово</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  </div>
+
+</body>
